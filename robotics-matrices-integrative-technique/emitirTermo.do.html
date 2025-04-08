@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/Dtd/xhtml1-transitional.dtd">
+<!-- saved from url=(0056)http://efomento.cnpq.br/efomento/contrato/emitirTermo.do -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    
+    <title>
+    </title>
+    <link rel="stylesheet" type="text/css" href="./emitirTermo.do_files/estilo.css">     
+    <script type="text/javascript" src="./emitirTermo.do_files/jquery.min.1.8.1.js.download"></script>
+	<script type="text/javascript">   
+		var $j = jQuery.noConflict();
+		/*------------/ Ajusta altura do iframe - Inicio /-------------------------*/
+		$j(document).ready(function() {
+		    var windowHeight = $j(window).height();
+		    var questionarioHeight = windowHeight;
+		    $j("#frameQuestionario").height(questionarioHeight);
+		});
+		/*------------/ Ajusta altura do iframe - Fim /-------------------------*/  
+		function submeterQuestionario(){
+		    //var cabecalho = $j("#conteudoCabecalho").html();
+		    //document.getElementById('conteudoCabecalho').style.display  = "none";
+		    //$j( '#cabecalho').val(cabecalho);
+		    $j( '#frmQuestionario').attr("target", "frameQuestionario"); 
+		    $j( '#frmQuestionario').submit();
+		}
+	</script>
+</head>
+<body style="min-width:720px;" onload="submeterQuestionario()" id="corpo">
+
+	
+	
+	
+	
+	
+		<form name="frmQuestionario" id="frmQuestionario" method="POST" action="http://efomento.cnpq.br/questionario/pages/questionario.jsf" target="frameQuestionario">
+			<!-- <input type="hidden" id="cabecalho" name="cabecalho" /> -->
+			<input type="hidden" id="questionario" name="questionario" value="143">
+			<input type="hidden" id="idNegocio" name="idNegocio" value="1464232">
+			<input type="hidden" id="codObjReferencia" name="codObjReferencia" value="20251060980">
+			<input type="hidden" id="tipoNegocio" name="tipoNegocio" value="2">
+		</form>
+
+	
+	
+		<iframe id="frameQuestionario" name="frameQuestionario" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 100%; height: 919px;" src="./emitirTermo.do_files/saved_resource.html"></iframe>
+	
+
+</body></html>

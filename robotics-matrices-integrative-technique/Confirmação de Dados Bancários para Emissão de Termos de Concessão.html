@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0056)http://efomento.cnpq.br/efomento/contrato/emitirTermo.do -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    
+    
+    <title>
+        Confirmação de Dados Bancários para Emissão de Termos de Concessão 
+    </title>
+
+    <link href="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/tabelaFixa.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/estilo.css">
+    <link rel="stylesheet" type="text/css" href="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/display.css">
+    <link rel="stylesheet" type="text/css" href="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/fomento.gui.css">
+    <script type="text/javascript" src="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/jquery.min.js.download"></script>   
+    <script type="text/javascript" src="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/gui.js.download"></script>
+    <script type="text/javascript" src="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/fomento.gui.js.download"></script>
+	    
+	    <script>
+			$(document).ready(function(){
+				var t = (new Date()).getTime() + Math.round(Math.random() * 999);
+				window[t] = $.win({
+					title:"Atenção",
+					width:500,
+					visible:true,
+					autoRemove:true,
+					showCloseBtn:false,
+					content:"<ul class='alert'>" + 'O seu termo foi encaminhado para o CNPq, favor preencher o Questionário Sócio Econômico' + "</ul>",
+					buttons: [
+						{label:"OK", callback:function(){
+															abrirQuestionario();
+															window[t].remove();
+															
+														}}
+					]
+				});
+			});
+
+			function abrirQuestionario(){
+					var f = document.forms[0];
+					f.acao.value = "verificarQuestionario"
+					f.target="_blank"
+					f.submit();
+				}
+		</script>
+	
+</head> 
+<body class="popup">
+	<form name="dadosEmissaoTermoForm" method="POST" action="http://efomento.cnpq.br/efomento/contrato/emitirTermo.do" target="_blank">
+    	<input type="hidden" name="acao" value="verificarQuestionario">
+    </form>
+	
+  
+ <!-- início configuração página -->
+    <table border="0" cellpadding="0" cellspacing="0" width="780">
+        <tbody><tr>
+            <td colspan="4">
+                <img src="./Confirmação de Dados Bancários para Emissão de Termos de Concessão_files/titulo_cnpq.jpg" width="780" height="75" border="0">
+            </td>
+        </tr>
+    </tbody></table>    
+    <table cellpadding="0" cellspacing="0" width="780">
+        <tbody><tr>
+            <td width="780">
+                <table width="780" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td width="780" valign="top">
+                            <table cellpadding="0" cellspacing="0" width="780">
+                                <tbody><tr>
+                                    <td width="15" class="esq_table">
+                                    </td><td width="750" align="left" class="cent_table">
+                                    </td><td width="15" align="center" class="dir_table">
+                                </td></tr>
+                                <tr valign="top">
+                                    <td height="83" valign="top" class="esq_mid_table"></td>
+                                    <td class="cent_mid_table" valign="top" align="center">
+                    
+                                        <!-- Inicio Conteúdo -->
+                                            <table cellspacing="0" cellpadding="5" width="625" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="tab_destaca_esquerda_inter">
+                                                                Comprovante do Documento de Contratacao
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td><br>
+                                                        <div style="border: 1px solid #000000">
+                                                            <table cellspacing="0" cellpadding="2" width="590" border="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="left"><br>
+                                                                            <b>Beneficiário:</b>
+                                                                            <br>Abraão Borges Pimenta Azevedo<br>
+                                                                             <br>cpf:70926370405<br>
+                                                                            <br>Processo: 106098/2025-0<br>
+                                                                                <p align="left">Termo de indicação registrado eletronicamente por meio da internet junto ao CNPq, pelo agente receptor 
+                                                                                  10.0.10.46(srv-picc06.cnpq.br), mediante uso de senha pessoal do Beneficiário 
+                                                                                  em 06/03/2025 14:47:03, 
+                                                                                  originário do número IP 200.130.33.73</p>
+                                                                                  Número de controle: 404306691404306691:3474396339-978802561
+                          
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                        </table>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            <td align="left">
+                                                       <p align="left">O número de acesso para o termo emitido é: 0811436584922366</p>
+                                                        <p align="left">Este documento será assinado digitalmente por um representante legal do 
+                                                                        CNPq e a versão digital assinada estará disponível para 
+                                                                        verificação de autenticidade no site do CNPq através do endereço 
+                                                                        <a href="http://efomento.cnpq.br/efomento/termo?numeroAcesso=0811436584922366" target="blank_">http://efomento.cnpq.br/efomento/termo?numeroAcesso=0811436584922366</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            <br>
+                
+                    <table width="625" cellpadding="5" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td align="center">
+                                <input type="button" class="select" value="      Sair       " onclick="window.location.href=&#39;http://www.cnpq.br&#39;;" title="Acesso ao sistema">                            	
+                            </td>
+                        </tr>
+                    </tbody></table>     
+                  <!-- final conteúdo-->
+                  <!-- final formatação página -->
+               </td>
+                <td class="dir_mid_table">
+              </td></tr>
+              <tr>
+                <td class="esq_baix_table">
+                </td><td class="cent_baix_table">
+                </td><td class="dir_baix_table">
+              </td></tr>
+            </tbody></table>
+          </td>
+         </tr>
+       </tbody></table>
+     </td>
+   </tr>
+  </tbody></table>
+  
+
+</body></html>
